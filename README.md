@@ -24,6 +24,20 @@ ionic start conFusion sidemenu
 ionic serve --lab
 ```
 
+```shell
+ionic info # view the info of Ionic installations
+ionic help
+ionic docs
+ionic signup
+ionic login
+ionic logout
+
+# Create new page using 
+ionic g page about
+# Update app.component.ts to include those new pages
+# Update app.module.ts to include declarations for new components/pages
+```
+
 Visit `http://localhost:8100/ionic-lab` to view the application
 
 ## More Info:
