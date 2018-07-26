@@ -40,6 +40,26 @@ ionic g page about
 
 Visit `http://localhost:8100/ionic-lab` to view the application
 
+- Define interfaces for different objects.
+- Define Ionic providers using commands:
+
+```shell
+ionic g provider Dish
+```
+
+Ionic CLI import Providers automatically. It doesn't do so for Pages in `app.module.ts`.
+
+Create generic HttpmsgProvider to handle every Http observable response.
+Use this provider in different other providers.
+
+Configure JSON-server to run locally
+
+```shell
+npm install json-server -g
+# Run following command from server folder.
+json-server --watch db.json -d 2000
+```
+
 ## More Info:
 
 Please, contact the repo developer for more information on the project.
