@@ -41,4 +41,12 @@ export class MenuPage implements OnInit {
     console.log('ionViewDidLoad MenuPage');
   }
 
+  dishSelected(event, dish) {
+    // navigate to dishdetail
+    // DishDetail Page will be child parameter
+    // Also pass dish as a navParameter.
+    this.navCtrl.push(DishdetailPage, {
+      dish: dish
+    });
+  }
 }

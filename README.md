@@ -63,7 +63,8 @@ npm install json-server -g
 json-server --watch db.json -d 2000
 ```
 
-The Navigation is handled through NavController and NavParams
+The Navigation is handled through NavController and NavParams. Ionic navigation is a parent-child relationship with parent pushing the data to child on the stack.
+
 ## More Info:
 
 Please, contact the repo developer for more information on the project.
