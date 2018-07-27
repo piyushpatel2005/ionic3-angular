@@ -24,6 +24,8 @@ ionic start conFusion sidemenu
 ionic serve --lab
 ```
 
+Ionic Page is pretty much similar to Angular controllers.
+
 ```shell
 ionic info # view the info of Ionic installations
 ionic help
@@ -42,6 +44,7 @@ Visit `http://localhost:8100/ionic-lab` to view the application
 
 - Define interfaces for different objects.
 - Define Ionic providers using commands:
+Ionic providers are the similar to Angular services
 
 ```shell
 ionic g provider Dish
@@ -60,6 +63,7 @@ npm install json-server -g
 json-server --watch db.json -d 2000
 ```
 
+The Navigation is handled through NavController and NavParams
 ## More Info:
 
 Please, contact the repo developer for more information on the project.
