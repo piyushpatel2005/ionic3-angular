@@ -22,6 +22,13 @@ Install Ionic Cordova
 npm install ionic cordova -g
 ionic start conFusion sidemenu
 ionic serve --lab
+
+ionic start iTunesBrowser blank
+ionic start iTunesBrowser tabs --appname "iTunes Browser" --id "com.piyushpatel2005.itunesbrowser" --ts
+ionic serve --lab
+ionic platform add ios
+ionic emulate ios # emulate ios
+ionic run ios # test on device
 ```
 
 Ionic Page is pretty much similar to Angular controllers.

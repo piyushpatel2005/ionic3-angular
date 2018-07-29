@@ -17,5 +17,34 @@
 
 
 <ion-content padding>
-
+  <ion-card>
+    <ion-card-header color="primary-light">
+      <h4>Location Information</h4>
+    </ion-card-header>
+    <ion-card-content>
+      <address>
+        <p>121, Clear Water Bay Road</p>
+        <p>Clear Water Bay, Kowloon</p>
+        <p>HONG KONG</p>
+        <p><ion-icon ios="ios-call" md="md-call"></ion-icon>: +852 1234 5678</p>
+        <p><ion-icon ios="ios-print" md="md-print"></ion-icon>: +852 9876 5432</p>
+        <p><ion-icon ios="ios-mail" md="md-mail"></ion-icon>: +852 9876 5432</p>
+      </address>
+      <ion-row color="primary">
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon ios="ios-call" md="md-call"></ion-icon>
+            <p> Call</p>
+          </button>
+        </ion-col>
+        <ion-col>
+          <button ion-button icon-left clear small>
+            <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+            <p> Email</p>
+          </button>
+        </ion-col>
+      </ion-row>
+      
+    </ion-card-content>
+  </ion-card>
 </ion-content>
