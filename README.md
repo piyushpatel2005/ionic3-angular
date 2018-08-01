@@ -29,6 +29,14 @@ ionic serve --lab
 ionic platform add ios
 ionic emulate ios # emulate ios
 ionic run ios # test on device
+ionic start --list # view the templates available
+```
+
+To generate your own icon and splash screen, put icon.png and splash.png screen into `resources` directory.
+
+```shell
+ionic cordova resources
+ionic platform add android
 ```
 
 Ionic Page is pretty much similar to Angular controllers.
